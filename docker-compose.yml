@@ -19,7 +19,7 @@ services:
     image: docketeerxiv/cadvisor:latest
     container_name: docketeer-cadvisor
     ports:
-      - '5893:5893'
+      - '${CA_ADVISOR_PORT}:${CA_ADVISOR_PORT}'
 
     volumes:
       - /:/rootfs:ro
