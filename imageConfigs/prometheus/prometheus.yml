@@ -11,7 +11,7 @@ scrape_configs:
   # Scrapes all of the container metrics
   - job_name: 'cadvisor'
     static_configs:
-      - targets: ['cadvisor:8080']
+      - targets: ['cadvisor:5893']
 
   - job_name: 'docker'
     static_configs:

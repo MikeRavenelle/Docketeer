@@ -9,7 +9,7 @@ Scrapes the computer metrics and then has them aggregated by prometheus. Look at
 
 <h3>cAdvisor</h3>
 cAdvisor will be deprecated on May 15, 2024 so this should be replaced with something else.<br />
-It scrapes all the container metrics and then has them aggregated to prometheus through host.docker.internal:8080 to be displayed on grafana dashboard.
+It scrapes all the container metrics and then has them aggregated to prometheus through host.docker.internal:5893 to be displayed on grafana dashboard.
 
 <h3>Grafana</h3>
 Displays the metric data aggregated by Prometheus, Node-exporter, cAdvisor

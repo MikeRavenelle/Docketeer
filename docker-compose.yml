@@ -19,7 +19,7 @@ services:
     image: docketeerxiv/cadvisor:latest
     container_name: docketeer-cadvisor
     ports:
-      - '8080:8080'
+      - '5893:5893'
 
     volumes:
       - /:/rootfs:ro
